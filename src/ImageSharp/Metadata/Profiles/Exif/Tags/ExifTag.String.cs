@@ -275,4 +275,9 @@ public abstract partial class ExifTag
     /// Gets the GPSDateStamp exif tag.
     /// </summary>
     public static ExifTag<string> GPSDateStamp { get; } = new ExifTag<string>(ExifTagValue.GPSDateStamp);
+
+    /// <summary>
+    /// Gets the 0xC74F exif tag.
+    /// </summary>
+    public static ExifTag<string> C74F { get; } = new ExifTag<string>(ExifTagValue.C74F);
 }

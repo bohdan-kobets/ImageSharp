@@ -2,17 +2,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>SixLabors.ImageSharp</AssemblyName>
-    <AssemblyTitle>SixLabors.ImageSharp</AssemblyTitle>
+    <AssemblyName>SixLabors.ImageSharp.ExtraTag</AssemblyName>
+    <AssemblyTitle>SixLabors.ImageSharp.ExtraTag</AssemblyTitle>
     <RootNamespace>SixLabors.ImageSharp</RootNamespace>
-    <PackageId>SixLabors.ImageSharp</PackageId>
+    <PackageId>SixLabors.ImageSharp.ExtraTag</PackageId>
     <PackageIcon>sixlabors.imagesharp.128.png</PackageIcon>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <RepositoryUrl Condition="'$(RepositoryUrl)' == ''">https://github.com/SixLabors/ImageSharp/</RepositoryUrl>
+    <RepositoryUrl Condition="'$(RepositoryUrl)' == ''">https://github.com/bohdan-kobets/ImageSharp/</RepositoryUrl>
     <PackageProjectUrl>$(RepositoryUrl)</PackageProjectUrl>
     <PackageTags>Image Resize Crop Gif Jpg Jpeg Bitmap Pbm Png Tga Tiff WebP NetCore</PackageTags>
     <Description>A new, fully featured, fully managed, cross-platform, 2D graphics API for .NET</Description>
     <Configurations>Debug;Release</Configurations>
+    <Version>3.0.1</Version>
   </PropertyGroup>
 
   <!--  This enables the nullable analysis and treats all nullable warnings as error-->
@@ -44,7 +45,7 @@
   <ItemGroup>
     <None Include="..\..\LICENSE" Pack="true" PackagePath="" />
     <None Include="..\..\shared-infrastructure\branding\icons\imagesharp\sixlabors.imagesharp.128.png" Pack="true" PackagePath="" />
-    <None Include="..\..\SixLabors.ImageSharp.props" Pack="true" PackagePath="build" />
+    <None Include="..\..\SixLabors.ImageSharp.ExtraTag.props" Pack="true" PackagePath="build" />
   </ItemGroup>
 
   <ItemGroup>
