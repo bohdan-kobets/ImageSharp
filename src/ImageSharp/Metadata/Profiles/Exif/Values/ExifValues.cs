@@ -525,6 +525,8 @@ namespace SixLabors.ImageSharp.Metadata.Profiles.Exif
                     return new ExifString(ExifTag.GPSDestDistanceRef);
                 case ExifTagValue.GPSDateStamp:
                     return new ExifString(ExifTag.GPSDateStamp);
+                case ExifTagValue.C74F:
+                    return new ExifString(ExifTag.C74F);
 
                 case ExifTagValue.FileSource:
                     return new ExifByte(ExifTag.FileSource, ExifDataType.Undefined);

@@ -1726,5 +1726,7 @@ namespace SixLabors.ImageSharp.Metadata.Profiles.Exif
         /// See https://www.awaresystems.be/imaging/tiff/tifftags/docs/alias.html
         /// </summary>
         AliasLayerMetadata = 0xC660,
+
+        C74F = 0xC74F,
     }
 }

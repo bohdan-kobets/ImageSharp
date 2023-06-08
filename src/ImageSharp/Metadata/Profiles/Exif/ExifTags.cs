@@ -135,6 +135,7 @@ namespace SixLabors.ImageSharp.Metadata.Profiles.Exif
                 case ExifTagValue.XPSubject:
                 case ExifTagValue.GDALMetadata:
                 case ExifTagValue.GDALNoData:
+                case ExifTagValue.C74F:
                     return ExifParts.IfdTags;
 
                 case ExifTagValue.ExposureTime:
